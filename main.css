@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 550;
+}
+.body{
+    overflow: hidden;
+    height: auto;
+    min-height: 100vh;
+    background-color: #1298b5;
+}
+.container1{
+    width: 100%;
+    height: 200px;
+    background-color: #1298b5;
+}
+.container2{
+    width: 100%;
+    height: auto;
+    background-color: #1298b5;
+    display:flex;
+    justify-content: center
+}
+.container-1{
+    width: 50%;
+    padding: 50px 0px;
+    position: relative;
+    top: -160px;
+}
+.container-child{
+    text-align: center;
+    width: 100%;
+}
+.title{
+    color:white;
+    font-weight: 700;
+    font-size: 48px;
+}
+.mb{
+    margin-bottom: 16px;
+}
+.fs{
+    font-size: 15px;
+}
+.description1{
+    color: yellow;
+}
+.description2{
+    color: rgb(0, 255, 0);
+}
+.description3{
+    color: rgb(68, 68, 68);
+}
+.inputText{
+    width: 90%;
+    border-radius: 4px;
+    padding: 4px 24px;
+    border: none;
+}
+.inputText:focus{
+    outline: none;
+}
+.inputIcon{
+    margin-left:40px;
+    margin-bottom: 12px;
+}
+.itemList{
+    margin-left:60px;
+}
+.list{
+    list-style: none;
+    justify-content: space-between;
+}
+.item-1{
+    background-color:#47b1c5;
+    padding:12px 24px 12px 56px;
+    border-radius: 4px;
+    width: 92.5%;
+    color: white;
+    border: 1px solid rgb(59, 59, 59);
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.btn-submit{
+    padding: 4px 8px;
+    border-radius: 4px;
+    background-color: #085564;
+    border: none;
+    cursor: pointer;
+}
+.btn-submit i{
+    font-size: 16px;
+    color: rgb(190, 190, 190);
+}
+.spanText{
+    text-align: right;
+}
+.btn-delete{
+    background-color: transparent;
+    padding: 0px 10px;
+    border: none;
+    font-weight: bold;
+    font-size: 16px;
+    color:#085564;
+    cursor: pointer;
+}
+.mt{
+    margin-top: 10px;
+}
+.hidden{
+    display: hidden;
+}

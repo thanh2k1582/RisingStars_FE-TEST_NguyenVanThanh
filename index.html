@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />
+    <title>Document</title>
+</head>
+<body>
+    <div class="body">
+        <div class="container1"></div>
+        <div class="container2">
+            <div class="container-1">
+                <div>
+                    <div class="container-child">
+                        <h1 class="title mb">WORK TO-DOS</h1>
+                        <h5 class="description1 mb fs">Enter text into the input field to add items to your list</h5>
+                        <h5 class="description2 mb fs">Click the item to mark it as completed</h5>
+                        <h5 class="description3 mb fs">Click the "X" to remove the item from your list</h5>
+                    </div>
+                    <div class="inputIcon">
+                        <form action="" autocomplete="off" onsubmit="onFormSubmit()" id="formInput" name="value">
+                            <input type="text" class="inputText fs inputClass" placeholder="New item..." id="inputValue" name="inputValue">
+                            <button class="btn-submit" id="add-btn" type="submit" >
+                                <i class="fa fa-edit"></i>
+                            </button>
+                        </form>
+                    </div>
+                    <div class="itemList">
+                        <ul class="list">
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- script import from index.js -->
+    <script src="index.js"></script>
+</body>
+</html>
+
+
+
